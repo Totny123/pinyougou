@@ -1,0 +1,141 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 15px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    height: 47px;
+    line-height: 47px;
+}
+
+.sk_list ul li a {
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+    height: 47px;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 23px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: "\e901";
+    font-family: 'icomoon';
+}
+
+.sk_bd {
+    margin-top: 25px;
+}
+
+.img {
+    text-align: center;
+}
+
+.sk_bd ul li {
+    float: left;
+    margin-right: 13px;
+    margin-top: 10px;
+    width: 290px;
+    height: 460px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.goods {
+    border: 1px solid transparent;
+    border-bottom: 0;
+}
+
+.goods:hover {
+    border: 1px solid #e12228;
+    border-bottom: 0;
+}
+
+.sk_bd ul li p {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.price {
+    margin-top: 2px;
+}
+
+.price span:first-child {
+    padding: 5px 10px;
+    font-size: 22px;
+    color: #e60012;
+}
+
+.price span:last-child {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.sell {
+    padding: 5px 10px;
+}
+
+.sell_left {
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;
+}
+
+.sell_progress_bar {
+    display: inline-block;
+    width: 133px;
+    height: 13px;
+    margin: 0 5px;
+    border: 1px solid #ed282e;
+    border-radius: 10px;
+}
+
+.sell_progress_bar .in {
+    width: 87%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background-color: #ed282e;
+}
+
+.sell_right {
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;
+}
+
+.sk_bd ul li button {
+    width: 100%;
+    height: 50px;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #ffffff;
+}
